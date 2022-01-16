@@ -9,6 +9,7 @@
     <title>Dev Patel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleproject.css">
 </head>
 
 <body>
@@ -16,15 +17,15 @@
         <div class="sidebarGo sidebar">
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/intro.html">About</a></li>
-                    <li><a href="/projects.html">Projects</a></li>
-                    <li><a href="/blog.html">Blogs</a></li>
-                    <li><a href="/contact.html">Contact Me</a></li>
+                    <li><a href="#index">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="main">
+        <div id="index" class="main">
             <div class="hamburger">
                 <img class="ham" src="images/icons8-menu-50.png" width="23px">
                 <img class="cross" src="images/icons8-cancel-64.png" width="23px">
@@ -33,7 +34,6 @@
                 <div class="devInfo">
                     <div class="hello">Hello I am</div>
                     <div class="name">Dev Patel</div>
-                    <!-- <div class="about">Web-Developer,Gamer,Programmer</div> -->
                     <div id="container" class="about">
                         <div id="text"></div>
                         <div id="cursor"></div>
@@ -58,8 +58,190 @@
                     </div>
                 </div>
                 <div class="devPic">
-                    <img src="images/profile-pic (4).png" />
+                    <img src="images/dev.png" />
                 </div>
+            </div>
+            <div id="about" class="intro">
+                <div class="heading">
+                    <hr>
+                    <h1>About me</h1>
+                    <hr>
+                </div>
+                <p> Hello, I am Dev and I'd want to introduce myself.<br>
+                    I am a student at L. J. Institute of Engineering and Technology,Ahmedabad. My hobbies include
+                    drawing, travelling and listening to music. I also like playing video games. I like to exchange
+                    ideas with people. I'm constantly eager to learn newthings, and I want to help
+                    others. I speak Gujarati, Hindi and English fluently.In my free time, I enjoy hiking, practicing
+                    photography, and exploring the city by bike.
+                </p>
+                <div class="heading">
+                    <hr>
+                    <h1>My Skills</h1>
+                    <hr>
+                </div>
+                <div class="skillcontainer">
+                    <p>HTML</p>
+                    <div class="skillItemContainer">
+                        <div class="skills html"><span>90%</span></div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="skillItemContainer">
+                        <div class="skills css"><span>60%</span></div>
+                    </div>
+
+                    <p>JavaScript</p>
+                    <div class="skillItemContainer">
+                        <div class="skills js"><span>50%</span></div>
+                    </div>
+
+                    <p>C/C++</p>
+                    <div class="skillItemContainer">
+                        <div class="skills c-cPlus"><span>80%</span></div>
+                    </div>
+
+                    <p>Java</p>
+                    <div class="skillItemContainer">
+                        <div class="skills java"><span>70%</span></div>
+                    </div>
+
+                    <p>Python</p>
+                    <div class="skillItemContainer">
+                        <div class="skills python"><span>95%</span></div>
+                    </div>
+                    <!-- TODO: Create a gallary for my projects -->
+                </div>
+            </div>
+            <!-- Projects  -->
+            <div id="projects" class="ProjectsMain heading">
+                <hr>
+                <h1>Projects Page</h1>
+                <hr>
+                <div class="mainv">
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/weatherapp.jpg" alt="Mountains" style="width:100%">
+                                <h3>Weather App</h3>
+                                <span>website that shows weather information.</span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/quotes bot.png" alt="Lights" style="width:100%">
+                                <h3>Quotes Bot</h3>
+                                <span>Discord Bot that suggest quotes.</span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/multimails.jpg" alt="Nature" style="width:100%">
+                                <h3>Multimails</h3>
+                                <span>Website that sends bulk mails.</span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/ecommercewebsite.png" alt="Mountains" style="width:100%">
+                                <h3>E-commerce Website</h3>
+                                <span>Simple website using Flask.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/musical bot.jpg" alt="Mountains" style="width:100%">
+                                <h3>Musical Bot</h3>
+                                <span>Discord Music Bot that plays music.</span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/feedback app.png" alt="Lights" style="width:100%">
+                                <h3>Feedback App</h3>
+                                <span>Feedback website using flask.</span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/virtual assistant.png" alt="Nature" style="width:100%">
+                                <h3>Virtual Assistant</h3>
+                                <span>Virtual Assistant that works on basic commands.</span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="images/projects/simple interest calculator.jpg" alt="Mountains"
+                                    style="width:100%">
+                                <h3>Interest Calculator</h3>
+                                <span>Simple Insterest Calculator.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="content">
+                                    <img src="images/project-1.jpg" alt="Bear" style="width:100%">
+                                    <h3>Some Other Work</h3>
+                                    <p>Lorem ipsum..</p>
+                                </div> -->
+
+                    <!-- END MAIN -->
+                </div>
+            </div>
+            <!-- Blogs -->
+            <div id="blogs" class="blogContainer">
+                <div class="heading">
+                    <hr>
+                    <h1>Blogs by Dev</h1>
+                    <hr>
+                </div>
+                <div class="blogItem">
+                    <div class="subheading">
+                        <h2>Flask based API development</h2>
+                    </div>
+                    <p>Blog about how can you make and test simple REST API using flask and why should you use flask
+                        instead of using Django?, Pros and Cons of flask.</p>
+                    <a href="Blogs/blog-1.pdf" target="_blank">
+                        <button class="btn btn-sm">Read More</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Contact Me -->
+            <div id="contact" class="contactform">
+                <div class="heading">
+                    <hr>
+                    <h1>Contact me for work/ General inquiries</h1>
+                    <hr>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientName" class=" form-label">Name</label>
+                        <input type="text" class="form-control" id="clientName" aria-describedby="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientPhone" class="form-label">Phone</label>
+                        <input type="phone" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="enquiry" class="form-label">Enquiry</label>
+                        <input type="text" class="form-control" id="clientEnquiry">
+                    </div>
+                    <div id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isClient">
+                        <label class="form-check-label" for="isClient">I want you to work on project with me</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-sm">Submit</button>
+
+                </form>
             </div>
         </div>
     </div>
