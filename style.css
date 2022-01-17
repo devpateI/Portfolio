@@ -276,6 +276,7 @@ p{
     color: white;
     /* margin: 10px 0 20px 0; */
     border-radius: 30px;
+    background-color: #2196F3;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .skillcontainer>p {
@@ -297,32 +298,23 @@ p{
         }
 
 .html {
-    width: 90%;
-    background-color: #2196F3;
-
+    width: 90%;  
 }
 .css {
     width: 60%;
-    background-color: #2196F3;
-
 }
 
 .js {
     width: 50%;
-    background-color: #2196F3;
-
 }
 .c-cPlus{
     width: 80%;
-    background-color: #2196F3;
 }
 .java{
-    background-color: #2196F3;
     width: 70%;
 }
 .python {
     width: 95%;
-    background-color: #2196F3;
 }
 
 .hamburger{
@@ -380,7 +372,8 @@ img {
         font-size:6px;
     }
     .devPic{
-        display: flex;
+        display: block;
+        text-align: center;
     }
     .infocontainer{
         display:block;
@@ -389,4 +382,22 @@ img {
     .intro,.blogContainer, .contactform, .ProjectsMain{
         margin: 50px 8px;
     }
+    .skillcontainer>p {
+    margin-left: 20px;
+    font-size: 10px;
+    width: 75px;
+    padding: 5px;
+    border-radius: 15px;
+    }
+    .skills {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    }
+    .devPic img{
+        height:38vh;
+    }
+    .fa {
+    font-size: 15px;
+    width: 15px;
 }
