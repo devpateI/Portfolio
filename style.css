@@ -43,7 +43,7 @@ body{
     display: flex;
 }
 .infocontainer{
-    height :58vh;
+    /* height :58vh; */
     width :80vw;
     margin: 144px auto;
     display: flex;
@@ -380,9 +380,13 @@ img {
         font-size:6px;
     }
     .devPic{
-        display: none;
+        display: flex;
     }
-    .intro, .blogContainer, .contactform, .ProjectsMain{
+    .infocontainer{
+        display:block;
+        margin-bottom:auto;
+    }
+    .intro,.blogContainer, .contactform, .ProjectsMain{
         margin: 50px 8px;
     }
 }
